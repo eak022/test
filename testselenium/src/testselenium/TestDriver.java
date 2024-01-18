@@ -14,7 +14,7 @@ public class TestDriver {
         driver.get("https://www.yahoo.com");
         
         WebElement search_box = driver.findElement(By.id("ybar-sbq"));
-        search_box.sendKeys("porn");
+        search_box.sendKeys("npru");
         
         WebElement btn_search = driver.findElement(By.id("ybar-search"));
         btn_search.click();    
